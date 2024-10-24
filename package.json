@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build-preview": "vite build --watch",
     "build": "vite build",
     "preview": "vite preview",
     "api-local": "json-server --watch backend/data/videos.json",
